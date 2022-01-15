@@ -1,4 +1,4 @@
-# stm32f4-project
+# STM32F4-project
 STM32F407VG micro controller used to send ADXL345 data (Accelerometer) to Laptop / microSD card over.
 - If Ethernet cable is connected between STM32F4 and Laptop, the Accelerometer data is sent to PC (using TCP socket)
 - When Ethernet connection goes down, Accelerometer data is saved in SD card (available in STM32F4 expansion) 
